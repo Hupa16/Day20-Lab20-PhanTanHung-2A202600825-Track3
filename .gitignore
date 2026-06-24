@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+reports/*.json
+reports/*.md
+!.gitkeep
+!reports/benchmark_report.md
+!reports/failure_modes.md
